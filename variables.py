@@ -31,3 +31,30 @@ nombre_apellido = "Perla Torres"
 
 # Camel Case: la primera palabra en minusculas y las siguientes comienzan con mayusculas
 nombreApellido = "Perla Torres"
+
+# contenido de las variables
+# las variables pueden contener todos los tipos de datos antes vistos
+
+# Strings
+cadena = "textoRandom"
+
+# Integers
+numero = 50
+
+# Floats
+decimal = 3.1416
+
+# Tuplas
+tuplaDeNumeros = (1,2,3,4,5,6,7,8,9)
+
+# Listas
+frutas = ['pera','manzana','pomelo','naranjas','limones']
+paises = ['Paraguay','Argentina','Bolivia','Brasil']
+numeros = [1,2,3,4,5,6,7,8,9]
+
+# Diccionarios
+estudiantes = {
+    'nombre':'Pedro',
+    'apellido':'Caceres',
+    'edad':15
+}

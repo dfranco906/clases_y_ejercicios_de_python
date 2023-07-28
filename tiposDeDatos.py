@@ -5,6 +5,10 @@
 type(45) 
 # Resultado: <class 'int'>
 
+# Floats, flotantes, decimales
+type(3.1416)
+# Resultado: <class 'float'>
+
 # str, string, cadenas de texto, texto
 type("Hola Mundo")
 # Resultado: <class 'str'>
