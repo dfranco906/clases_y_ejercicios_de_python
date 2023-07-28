@@ -1,0 +1,1 @@
+https://controlautomaticoeducacion.com/python-desde-cero/metodos-string-en-python/
