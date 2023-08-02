@@ -1,5 +1,7 @@
-# la funcion print() en python nos ayuda a visualizar los resultados de los programas
-# en la consola
+# FUNCION print() en python
+
+# la funcion print() en python nos ayuda a visualizar los resultados
+# o salidas de los programas en la consola
 
 print("Hola Mundo") # muestra en la consola: Hola Mundo
 
