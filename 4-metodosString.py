@@ -5,15 +5,6 @@
 
 frase = "Hola Mundo"
 
-# PARTICIONAR LOS STRINGS
-# los strings son cadenas de texto y podemos acceder a cada 'pedazo' o 'parte' de esa cadena
-print(frase[5]) # Resultado: M
-frase[0:5] #Retorna el slice: 'Hola '
-frase[0:10:2] #Retorna el slice: 'Hl ud'
-frase[:5] #Retorna el slice: 'Hola '
-frase[6:] #Retorna el slice: 'Mundo'
-frase[6::3] #Retorna el slice: 'uo'
-
 # ANALIZAR STRINGS
 # len() Retorna el tamaño de la cadena de caracteres
 # count() Retorna el numero de veces que se repite un caracter en la cadena
@@ -24,6 +15,15 @@ frase.count('o')   #Retorna 2
 frase.count('o',0,8)   #Retorna 1 (numero de 'o' desde el cero hasta el 8)
 frase.find('Mun')   #Busca el substring 'Mun' retorna 5 - Desde la 
 # posicion 5 en adelante se encuentra la frase buscada
+
+# PARTICIONAR LOS STRINGS
+# los strings son cadenas de texto y podemos acceder a cada 'pedazo' o 'parte' de esa cadena
+print(frase[5]) # Resultado: M
+frase[0:5] #Retorna el slice: 'Hola '
+frase[0:10:2] #Retorna el slice: 'Hl ud'
+frase[:5] #Retorna el slice: 'Hola '
+frase[6:] #Retorna el slice: 'Mundo'
+frase[6::3] #Retorna el slice: 'uo'
 
 # TRANSFORMAR STRING EN PYTHON
 # upper() Coloca todo el string en mayusculas
